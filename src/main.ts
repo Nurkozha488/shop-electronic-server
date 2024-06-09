@@ -18,7 +18,7 @@ async function bootstrap() {
 
   app.enableCors({
     credentials: true,
-    origin: ['http://localhost:3001', 'https://shop-electronic-client.onrender.com'],
+    origin: ['http://localhost:3001', 'https://shop-electronic-client.onrender.com', 'https://electronic488.netlify.app'],
   });
 
   const config = new DocumentBuilder()
